@@ -1,0 +1,19 @@
+:root{
+    /* color */
+    --primary-color: #000000;
+    --secondary-color: #333333;
+    --bg-color: #fff;
+    --footer-bg-color:#041721;
+
+    /* font */
+    --primary-font: 'Merriweather';
+    --secondary-font:'Roboto';
+
+     /* size */
+     --title-fz:35px;
+     --sub-title-fz: 24px;
+     --bd-fz:16px;
+
+     /* height */
+     --line-height: 1.5em;
+}

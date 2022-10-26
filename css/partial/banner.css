@@ -1,0 +1,37 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.banner .title,.banner .img{
+    width: 50%;
+}
+.banner .img img{
+    width: 100%;
+}
+.title h1{
+    font-size: 4em;
+    text-transform: capitalize;
+    margin-top: 30%;
+    margin-bottom: 50%;
+    text-align: center;
+}
+
+@media(max-width:1000px){
+    .title h1{
+        font-size: 2em;
+        margin-bottom: 10%;
+    }
+    .title img{
+        width: 10%;
+    }
+}
+@media(max-width:500px){
+    .banner{
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner .title,.banner .img{
+        width: 100%;
+    }
+}

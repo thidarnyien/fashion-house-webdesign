@@ -1,0 +1,30 @@
+.products{
+    border-bottom: 1px solid lightgray;
+    margin: 5% auto;
+}
+.gram{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button i{
+    font-size: var(--sub-title-fz);
+    margin-left: 20px;
+}
+.products .img-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% auto;
+}
+.img-container>*{
+    width: 23%;
+    overflow: hidden;
+}
+.img-container div img{
+    width: 100%;
+}
+@media(max-width:500px){
+    .container{
+        width: 100%;
+    }
+}

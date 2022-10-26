@@ -1,0 +1,16 @@
+.brands{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: 5% auto;
+}
+.brands h1{
+    margin: 5% auto;
+    text-align: center;
+}
+.logos{
+    margin: 5% auto;
+    text-align: center;
+}
+.logos img{
+    padding: 20px;
+}
